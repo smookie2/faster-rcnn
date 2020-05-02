@@ -16,3 +16,14 @@ Install Python dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
+## Dataset preparation
+
+Dowload [CoCo dataset and annotation](http://cocodataset.org/#download), extract it, and put extracted files under directory `dataset` as follow:
+
+```bash
+faster-rcnn
+├── dataset
+│   ├── annotations
+│   └── images
+```
