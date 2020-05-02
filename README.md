@@ -1,10 +1,18 @@
-# MY MASK-RCNN
+# faster-rcnn
+An implementation of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
+
+>[Paper](https://arxiv.org/abs/1506.01497)
+>
+>[Official Implementation in MATLAB](https://github.com/ShaoqingRen/faster_rcnn)
+
+## Installation
+
+Install system requirements
+
+- Python 3.7
+
+Install Python dependencies
 
 ```bash
-# create an virtual environment and activate it
-python -m venv .venv
-. .venv/bin/activate
-
-# install dependencies
 pip install -r requirements.txt
 ```
